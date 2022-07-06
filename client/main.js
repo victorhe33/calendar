@@ -47,13 +47,14 @@ function addEvent(event) {
   
   //add goals to insert text.
   event['goals'].forEach((goal, idx) => {
-    eventText += "\n" + `${idx + 1}. ` + goal;
+    eventText += '\n' + `${idx + 1}. ` + goal;
   });
 
   //replace placeholder text of target element with new insert text;
   target.innerText = eventText;
 }
 
+//Call addEvent on each event on our schedule
 schedule.forEach(event => {
   addEvent(event);
 })

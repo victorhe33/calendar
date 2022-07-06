@@ -49,6 +49,16 @@ const schedule =
 },
 {
   week: 3,
+  day: "Thursday",
+  unit: 6,
+  challenge: "Gio's Family",
+  goals: [
+    'feed them',
+    'no injuries acquired by anybody'
+  ]
+},
+{
+  week: 3,
   day: "Friday",
   unit: 6,
   challenge: "React",
