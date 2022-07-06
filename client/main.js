@@ -13,7 +13,7 @@ console.log(schedule);
 
 
 //calculate number of weeks we need to account for
-let totalWeeks = schedule[schedule.length - 1]['week']
+const totalWeeks = schedule[schedule.length - 1]['week']
 
 //CREATE AND APPEND TO SCHEDULE PLACEHOLDERS "no events scheduled" to calendar
 //EVENT ID is -> week# + day ie... '1monday'
